@@ -1,6 +1,6 @@
-# Role based Auth
+# Role based
 
-Welcome to the Role based Auth repository! This server is designed to handle various functionalities related to employee management within a company.
+Welcome to the Role based repository! This server is designed to handle various functionalities related to employee management within a company.
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@ Welcome to the Role based Auth repository! This server is designed to handle var
 
 ## Overview
 
-The Role based Auth is built to manage employee data, roles, and related operations within the organization. It provides RESTful APIs for employee registration, authentication, and authorization.
+The Role based is built to manage employee data, roles, and related operations within the organization. It provides RESTful APIs for employee registration,entication, andorization.
 
 ## Getting Started
 
@@ -32,8 +32,8 @@ The Role based Auth is built to manage employee data, roles, and related operati
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Francis-Mwaniki/role-based-auth.git
-   cd role-based-auth
+   git clone https://github.com/Francis-Mwaniki/role-based.git
+   cd role-based
     ```
 
 2. Install the dependencies:
@@ -45,7 +45,7 @@ The Role based Auth is built to manage employee data, roles, and related operati
 
    ```bash
     PORT=3000
-    MONGODB_URI=mongodb://localhost:27017/role-based-auth
+    MONGODB_URI=mongodb://localhost:27017/role-based
     JWT_SECRET=secret
     ```
 4. Start the server:
@@ -88,14 +88,14 @@ The Role based Auth is built to manage employee data, roles, and related operati
 
 ## Usage
 
-The Role based Auth provides the following RESTful APIs:
+The Role based provides the following RESTful APIs:
  
-- `POST /api/auth/register-se` - Register a new  Software engineer employee
-- `POST /api/auth/register-hr` - Register a new Human Resource employee
-- `POST /api/auth/register-admin` - Register a new admin employee
-- `POST /api/auth/Login-se` - Login a Software engineer employee
-- `POST /api/auth/Login-hr` - Login a Human Resource employee
-- `POST /api/auth/Login-admin` - Login a admin employee
+- `POST /api/register-se` - Register a new  Software engineer employee
+- `POST /api/register-hr` - Register a new Human Resource employee
+- `POST /api/register-admin` - Register a new admin employee
+- `POST /api/Login-se` - Login a Software engineer employee
+- `POST /api/Login-hr` - Login a Human Resource employee
+- `POST /api/Login-admin` - Login a admin employee
 
 - Protected routes
 

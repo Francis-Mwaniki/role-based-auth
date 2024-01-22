@@ -25,7 +25,7 @@ The Role based Auth is built to manage employee data, roles, and related operati
 
 - [Node.js](https://nodejs.org/) installed
 - [MongoDB](https://www.mongodb.com/) installed and running
-- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/) package manager
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/) package admin
 
 ### Installation
 
@@ -92,15 +92,15 @@ The Role based Auth provides the following RESTful APIs:
  
 - `POST /api/auth/register-se` - Register a new  Software engineer employee
 - `POST /api/auth/register-hr` - Register a new Human Resource employee
-- `POST /api/auth/register-manager` - Register a new Manager employee
+- `POST /api/auth/register-admin` - Register a new admin employee
 - `POST /api/auth/Login-se` - Login a Software engineer employee
 - `POST /api/auth/Login-hr` - Login a Human Resource employee
-- `POST /api/auth/Login-manager` - Login a Manager employee
+- `POST /api/auth/Login-admin` - Login a admin employee
 
 - Protected routes
 
-- `GET /api/marketers-protected` - Get all marketers
-- `GET /api/admin-protected` - Get all admin
-- `GET /api/hr-protected` - Get all human resource employees
-- `GET /api/se-protected` - Get all software engineers
+- `GET /api/marketers-protected` - right to marketers
+- `GET /api/admin-protected` - right to admin
+- `GET /api/hr-protected` - right to human resource employees
+- `GET /api/se-protected` - right to software engineers
 
